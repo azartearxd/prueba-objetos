@@ -7,7 +7,7 @@ class datos:
 
 
     def procesar(self):
-      self.data[2]
+      self.data
 
     def print(self):
       for item in self.data:
@@ -16,3 +16,4 @@ yo = datos()
 yo.leer()
 yo.procesar()
 yo.print()
+
