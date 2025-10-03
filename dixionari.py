@@ -1,7 +1,7 @@
 class datos:
     def __init__(self):
       self.data = []
-      self.labels = ["Nombre", "ID", "Edad", "Peso", "Teléfono", "Dirección", "Carrera"] # Added labels
+      self.labels = ["Nombre", "ID", "Edad", "Peso", "Teléfono", "Dirección", "Carrera"] 
 
 
     def leer(self):
@@ -13,8 +13,9 @@ class datos:
 
     def print(self):
       for i, item in enumerate(self.data):
-        print(f"{self.labels[i]}: {item}") # Modified to include labels
+        print(f"{self.labels[i]}: {item}") 
 yo = datos()
 yo.leer()
 yo.procesar()
+
 yo.print()
